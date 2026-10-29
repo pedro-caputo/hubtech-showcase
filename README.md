@@ -39,7 +39,7 @@ A plataforma está em produção e aberta para acesso:
 
 ![Demonstração interativa do HubTech](./assets/demo.gif)
 
-*Fluxo completo de navegação: rolagem da página inicial, catálogo de cursos com filtros por área, central de benefícios universitários e painel de orientação "Por Onde Começar?".*
+*Fluxo completo de navegação do HubTech: rolagem da página inicial, catálogo de cursos com filtros por área, central de benefícios universitários e painel de orientação "Por Onde Começar?".*
 
 ---
 
@@ -56,7 +56,7 @@ A plataforma está em produção e aberta para acesso:
 </td>
 <td width="50%">
 
-**2. Catálogo de Cursos & Certificações**
+**2. Catálogo de Cursos & Treinamentos**
 
 ![Catálogo com filtros por área técnica](./assets/tela-explorar.png)
 
@@ -80,11 +80,11 @@ A plataforma está em produção e aberta para acesso:
 </tr>
 </table>
 
-### Painel de Orientação ("Por Onde Começar?")
+### Botão de Orientação ("Por Onde Começar?" — Questionário, Trilhas e Plataformas)
 
-![Guia de orientação, trilhas de estudo e plataformas](./assets/tela-por-onde-comecar.png)
+![Painel lateral mostrando o catálogo de instituições e plataformas parceiras](./assets/tela-por-onde-comecar.png)
 
-*Painel lateral interativo voltado especialmente para alunos de início de curso, com diagnóstico por interesses, trilhas técnicas e plataformas parceiras.*
+*Painel lateral interativo acionado pelo botão flutuante **"Por Onde Começar?"** (com as abas de Questionário, Trilhas e Plataformas). A captura acima destaca a aba **Plataformas**, reunindo as instituições de ensino, certificadoras e benefícios estudantis catalogados no HubTech.*
 
 ---
 
