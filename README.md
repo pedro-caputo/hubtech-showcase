@@ -133,9 +133,9 @@ O **HubTech** centraliza, filtra e organiza essas oportunidades em um único amb
 - **Node.js & Express:** Camada de API para gerenciamento de dados, rotas de consulta e submissões.
 - **Supabase (PostgreSQL):** Banco de dados relacional gerenciado na nuvem.
   - Tabela `opportunities`: Cadastro de cursos, certificações, tags, cargas horárias e metadados.
-  - Tabela `submissions`: Fila de oportunidades enviadas pela comunidade para triagem.
-  - Tabela `admin_users`: Controle de acesso administrativo.
-- **Segurança & Validação:** Validação estrita de schemas com **Zod**, autenticação via **JWT** e hashing de senhas com **bcryptjs**.
+  - Fila de `submissions`: Oportunidades enviadas pela comunidade para triagem editorial.
+  - **Módulo de Gestão & Moderação:** Controle de acesso administrativo autenticado para moderação e gestão da plataforma.
+- **Segurança & Validação:** Validação estrita de schemas com **Zod**, autenticação via **JWT** e hashing seguro de senhas com **bcryptjs**.
 
 ### Deploy & Infraestrutura
 - **Vercel:** Hospedagem com distribuição global por CDN e suporte a Serverless Functions.
