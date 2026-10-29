@@ -1,0 +1,56 @@
+<svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="nexusGrad1" x1="2" y1="4" x2="34" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FF7A45" />
+      <stop offset="60%" stop-color="#E06438" />
+      <stop offset="100%" stop-color="#C44317" />
+    </linearGradient>
+    <linearGradient id="nexusGrad2" x1="34" y1="4" x2="2" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FBBF24" />
+      <stop offset="50%" stop-color="#E06438" />
+      <stop offset="100%" stop-color="#8A2C0D" />
+    </linearGradient>
+    <filter id="nexusGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Primary Orbital Ellipse (North-West to South-East) -->
+  <ellipse
+    cx="18"
+    cy="18"
+    rx="13.5"
+    ry="5.5"
+    transform="rotate(-30 18 18)"
+    stroke="url(#nexusGrad1)"
+    stroke-width="2.2"
+    stroke-linecap="round"
+    opacity="0.95"
+  />
+
+  <!-- Secondary Orbital Ellipse (South-West to North-East) -->
+  <ellipse
+    cx="18"
+    cy="18"
+    rx="13.5"
+    ry="5.5"
+    transform="rotate(30 18 18)"
+    stroke="url(#nexusGrad2)"
+    stroke-width="1.8"
+    stroke-linecap="round"
+    stroke-dasharray="1.5 2.5"
+    opacity="0.85"
+  />
+
+  <!-- Nexus Quantum Core -->
+  <circle cx="18" cy="18" r="3.2" fill="#FFFFFF" filter="url(#nexusGlow)" />
+  <circle cx="18" cy="18" r="1.8" fill="#E06438" />
+
+  <!-- Micro Satellites / Nodes -->
+  <circle cx="7.5" cy="12" r="1.4" fill="#FBBF24" />
+  <circle cx="28.5" cy="24" r="1.4" fill="#FF7A45" />
+</svg>
